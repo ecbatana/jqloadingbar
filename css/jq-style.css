@@ -1,0 +1,23 @@
+* {
+	margin:0;
+	padding:0;
+}
+.jq-loadbar {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+	.jq-loadbar .loadbar {
+		border-top: 3px solid #4E9A06;
+		display:block;
+		width:100%;
+		position: relative;
+	}
+		.jq-loadbar .loadbar .loadbar-glow {
+			box-shadow: 1px 1px 0 #8AE234;
+			width: 10%;
+			float:right;
+			display:block;
+			margin-top:-3px;
+			border-top: 3px solid #4E9A06;
+		}
